@@ -144,6 +144,18 @@ color: var(--text-color);
 box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
 margin-left: 80px;
 }
+.filters-search-wrapper{
+  position: relative;
+}
+.filters-serach-icon{
+  position: absolute;
+  left: 120px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-color);
+  pointer-events: none;
+
+}
 .filters-region-select {
   min-width: 200px;
   background-color: var(--elBg);
